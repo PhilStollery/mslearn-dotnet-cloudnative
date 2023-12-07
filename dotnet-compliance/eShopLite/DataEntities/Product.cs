@@ -6,6 +6,7 @@ namespace DataEntities;
 public class Product
 {
     [Key]
+    [EUPData]
     [JsonPropertyName("id")]
     public int Id { get; set; }
 
